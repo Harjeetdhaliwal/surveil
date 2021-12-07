@@ -1,8 +1,10 @@
 # surveil
+
 ![Logo](./client/public/images/cover.png)
 A web app and browser extension to track productivity based on browser network activity.
 
 ## Getting Started
+
 1. Install dependencies: `npm install`
 2. Create `api/.env` using `api/.env.example` as reference: `cp api/.env.example api/.env`
 3. Update `.env` with correct information.
@@ -12,6 +14,7 @@ A web app and browser extension to track productivity based on browser network a
 7. (optional) Seed database: `npm run db:seed`
 
 ## Dependencies
+
 - Node v15.14.0+
 - dotenv
 - cookie-parser
@@ -20,3 +23,11 @@ A web app and browser extension to track productivity based on browser network a
 - jsonwebtoken
 - pg
 - sequelize
+
+Load extension in the browser and sign in with the unique Id
+
+!["Gif of adding plugin"](https://github.com/Harjeetdhaliwal/surveil/blob/main/Docs/extension.gif)
+
+Admin Home page to viw the browser Activity and Insights
+
+!["Gif of admin dashboard"](https://github.com/Harjeetdhaliwal/surveil/blob/main/Docs/Surveil.gif)
